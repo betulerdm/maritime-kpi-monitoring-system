@@ -1,0 +1,594 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 10px 50px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #00bfff;
+  }
+  
+  .banner {
+    background-image: url('../images/resim1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    background-color: #00bfff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #007bb5;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 10px 50px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #00bfff;
+  }
+  
+  .banner {
+    background-image: url('../images/resim1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #00bfff;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #007bb5;
+  }
+  .content{
+    background-color: rgba(0,0,0,0.6);
+    padding:30px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  }
+  
+  .register-banner {
+    background-image: url('../images/resim1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.register-banner::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* siyah şeffaf katman */
+}
+
+
+  .register-form {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 60px; /* İç boşluk büyüdü */
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    width: 450px;  /* Form kutusu büyüdü */
+    max-width: 95%; /* Mobilde ekranı taşmasın */
+    transition: 0.3s ease;
+}
+
+
+
+
+.register-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    width: 600px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+}
+.register-banner {
+  background-image: url('../images/resim1.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  padding: 10px 50px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #00bfff;
+}
+
+.banner {
+  background-image: url('../images/resim1.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #00bfff;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #007bb5;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  padding: 10px 50px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #00bfff;
+}
+
+.banner {
+  background-image: url('../images/resim1.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #00bfff;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #007bb5;
+}
+.content{
+  background-color: rgba(0,0,0,0.6);
+  padding:30px 50px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.register-banner {
+  background-image: url('../images/resim1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.register-banner::after {
+content: "";
+position: absolute;
+top: 0; left: 0; right: 0; bottom: 0;
+background-color: rgba(0,0,0,0.5); /* siyah şeffaf katman */
+}
+
+
+.register-form {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px 60px; /* İç boşluk büyüdü */
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  width: 450px;  /* Form kutusu büyüdü */
+  max-width: 95%; /* Mobilde ekranı taşmasın */
+  transition: 0.3s ease;
+}
+
+
+
+
+.register-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 100px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  width: 600px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+}
+.register-banner {
+background-image: url('../images/resim1.png');
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.dashboard-content {
+position: relative;
+z-index: 2;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 50px 60px;
+border-radius: 15px;
+color: white;
+text-align: center;
+width: 700px;
+max-width: 95%;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 30px;
+}
+
+.card {
+background-color: #00bfff;
+color: white;
+text-decoration: none;
+padding: 40px 60px;
+margin: 15px;
+font-size: 20px;
+border-radius: 15px;
+transition: 0.3s;
+width: 220px;
+text-align: center;
+}
+
+.card:hover {
+background-color: #007bb5;
+transform: scale(1.05);
+}
+.dashboard-banner {
+background-image: url('../images/resim2.png');
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.tedarikci-banner {
+  background-image: url('../images/resim3.png'); /* burayı dilediğinle değiştir */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.logo-img {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 200px;
+}
+
+
+
+.register-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  width: 400px;
+  color: white;
+  margin: 0 auto;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.register-form label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #007bb5;
+}
+.chart-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* küçük ekranlarda alta geçsin */
+  margin-top: 30px;
+}
+
+canvas {
+  background-color: white;
+  border-radius: 10px;
+  width: 45% !important;
+  height: 300px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
